@@ -167,8 +167,13 @@ const myObj = {
 	age: 35
 }
 
-let arrObj = Object.entries(myObj);
-console.log(arrObj);
+function objToArr (obj){
+    let arrObj = Object.entries(obj);    
+    return arrObj
+}
+
+console.log(objToArr(myObj))
+
 
 
 //--------------------------------------------- //--- 13 ---// ------------------
